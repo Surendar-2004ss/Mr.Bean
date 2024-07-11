@@ -1,0 +1,30 @@
+#eyes{
+    width: 32%;
+    position: absolute;
+    left: 650px;
+    top: 270px;
+    height: 300px;
+    transform: translateY(0%);
+}
+
+#eye{
+    background-color: rgb(228, 228, 228);
+    border: 5px solid black;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    display: inline-block;
+    margin: 18px;
+    overflow: hidden;
+}
+
+.ball{
+    background-color: black;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
